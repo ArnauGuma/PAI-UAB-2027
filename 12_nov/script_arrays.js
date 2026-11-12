@@ -53,18 +53,15 @@
 
 // console.log(taula);
 
-//Exercici amb objectes
-// function Auto(marca, modelo, potencia, antiguedad, precio) {
-//   this.marca = marca;
-//   this.modelo = modelo;
-//   this.potencia = potencia;
-//   this.antiguedad = antiguedad;
-//   this.precio = precio;
-// }
+//21.6
+// let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
 
-// let miAuto = new Auto("Seat", "Ibiza", 90, 2010, 5000);
-// let otroAuto = new Auto("Opel", "Astra", 92, 1995, 500);
+// console.log(taula[0]);
+// console.log(taula[taula.length - 1]);
 
-// let masAntiguo = miAuto.antiguedad < otroAuto.antiguedad ? miAuto : otroAuto;
+//21.7
+let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
 
-// console.log(masAntiguo.marca, masAntiguo.modelo);
+for (let i = 0; i < taula.length; i++) {
+  console.log(taula[i]);
+}
