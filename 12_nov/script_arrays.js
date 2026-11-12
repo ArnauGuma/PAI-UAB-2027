@@ -60,8 +60,43 @@
 // console.log(taula[taula.length - 1]);
 
 //21.7
-let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+// let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
 
-for (let i = 0; i < taula.length; i++) {
-  console.log(taula[i]);
-}
+// for (let i = 0; i < taula.length; i++) {
+//   console.log(taula[i]);
+// }
+
+//21.8
+// let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+
+// let suma = 0;
+
+// for (let i = 0; i < taula.length; i++) {
+//   suma += taula[i];
+// }
+
+// console.log(suma);
+
+//21.9
+// let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+
+// let nova = [];
+
+// for (let i = 0; i < taula.length; i++) {
+//   nova.push(taula[i] + 25);
+// }
+
+// console.log(nova);
+
+//21.10
+// let taula = [23,45,63,78,23,68,3,78,32,53,93,21,53,5,62,78];
+
+// let suma = 0;
+
+// for (let i = 0; i < taula.length; i++) {
+//   suma += taula[i];
+// }
+
+// let mitjana = suma / taula.length;
+
+// console.log(mitjana);
